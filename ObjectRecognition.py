@@ -86,7 +86,7 @@ if __name__ == '__main__':
     nested_fn  = args.get('--nested-cascade', "E:\SOFTWARES\opencv\sources\data\haarcascades\haarcascade_eye.xml")
     smile_fn = args.get('--cascade', "E:\SOFTWARES\opencv\sources\data\haarcascades\haarcascade_mcs_mouth.xml")
     numberplate_fn = args.get('--cascade', "E:\SOFTWARES\opencv\sources\data\haarcascades\haarcascade_russian_plate_number.xml")
-    wc_fn = args.get('--cascade', "E:\SOFTWARES\opencv\sources\data\haarcascades\wc.xml")
+    wc_fn = args.get('--cascade', "E:\SOFTWARES\opencv\sources\data\haarcascades\haarcascade_wallclock.xml")
 
     # Initializing the cascade files
     cascade = cv2.CascadeClassifier(cascade_fn)
