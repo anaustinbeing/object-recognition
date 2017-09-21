@@ -13,10 +13,10 @@ Objects recognized:
 5. Wallclock
 
 ******
-1. Keep video.py and common.py files in the **same** folder as objectrecognition.py.
+1. Keep video.py and common.py files in the **same** folder as ObjectRecognition.py.
 2. Make sure to **download haar folder** which contains all the haar-cascade files required for object recognition.
-3. Also make sure that you **give the path correctly for the cascade files in args.get function within objectrecognition.py** - Change the path (provided) and make it correspond to the path for the haar-cascade files on your computer. 
-4. **Run** objectrecognition.py - This opens your webcam and the objects (specified above) are recognized.
+3. Also make sure that you **give the path correctly for the cascade files in args.get function within ObjectRecognition.py** - Change the path (provided) and make it correspond to the path for the haar-cascade files on your computer. 
+4. **Run** ObjectRecognition.py - This opens your webcam and the objects (specified above) are recognized.
 
 ******
 
